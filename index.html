@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
   <head>
     <meta charset="UTF-8">
@@ -17,9 +17,9 @@
           <img src="./images/logo.png" alt="logo" class="w-16">
         </a>
         <div>
-          <a class="mx-2 text-gray-500" href="#">Bio</a>
-          <a class="mx-2 text-gray-500" href="#">Stats</a>
-          <a class="ml-2 text-gray-500" href="#">Awards</a>
+          <a class="mx-2 text-gray-500 hover:text-purple-600 hover:underline" href="#">Bio</a>
+          <a class="mx-2 text-gray-500 hover:text-purple-600 hover:underline" href="#stats">Stats</a>
+          <a class="ml-2 text-gray-500 hover:text-purple-600 hover:underline" href="#awards">Awards</a>
         </div>
       </nav>
     </header>
@@ -29,13 +29,18 @@
         <div class="">
           <h1 class="font-bold text-6xl tracking-wide text-gray-800">King James</h1>
           <div class="mt-4">
-            <button class="bg-purple-500 py-2 px-4 text-gray-50 rounded-md">Discover More</button>
+            <a href="#about">
+              <button
+                class="bg-purple-500 py-2 px-4 text-gray-50 rounded-md hover:drop-shadow-2xl transition-all ease-linear hover:-translate-y-1 active:bg-purple-900 active:shadow-none">Discover
+                More
+              </button>
+            </a>
             <button class="text-purple-500 py-2 px-4">Lorem ipsum</button>
           </div>
         </div>
       </section>
 
-      <section class="bg-purple-500 p-20 rounded-md -mt-8 mb-24">
+      <section class="bg-purple-500 p-20 rounded-md -mt-8 mb-24" id="about">
         <h2 class="text-gray-50 text-4xl mb-4">Who is Lebron James?</h2>
         <img src="./images/lebron.png" class="w-full mb-5" alt="lebron-image">
         <p class="text-gray-50 text-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit ipsam at esse
@@ -45,7 +50,7 @@
           praesentium laborum!</p>
       </section>
 
-      <section class="flex justify-center flex-col items-center mb-24">
+      <section class="flex justify-center flex-col items-center mb-24" id="stats">
         <h3 class="text-4xl font-medium mb-1">Current Stats</h3>
         <a href="#" class="text-lg mb-10 text-purple-400">view all</a>
         <div class="w-full flex justify-between mb-2">
@@ -68,9 +73,10 @@
         </div>
       </section>
 
-      <section>
+      <section id="awards">
         <h4 class="text-4xl font-semibold text-gray-800 mb-5">Awards</h4>
-        <div class="flex justify-between items-center bg-yellow-400 p-4 rounded mb-5">
+        <div
+          class="flex justify-between items-center bg-yellow-400 p-4 rounded mb-5 transition hover:-translate-y-3 ease-in">
           <p class="text-purple-500 text-4xl font-extrabold uppercase tracking-wide">Championships</p>
           <div class="flex items-center">
             <img class="h-16" src="./images/championship.png" alt="championship">
