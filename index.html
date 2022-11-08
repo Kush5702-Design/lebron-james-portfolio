@@ -7,110 +7,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <title>Lebron James</title>
+    <title>Cristiano Ronaldo</title>
   </head>
 
   <body class="flex flex-col min-h-screen max-w-screen-lg mx-auto">
     <header class="sticky top-0">
       <nav class="flex justify-between items-center p-4">
-        <a href="">
-          <img src="./images/logo.png" alt="logo" class="w-16">
+        <a href="#">
+          <img src="./images/logo.png" alt="logo" class="w-16 transition-all ease-linear hover:-translate-y-1">
         </a>
         <div>
-          <a class="mx-2 text-gray-500 hover:text-purple-600 hover:underline" href="#">Bio</a>
-          <a class="mx-2 text-gray-500 hover:text-purple-600 hover:underline" href="#stats">Stats</a>
-          <a class="ml-2 text-gray-500 hover:text-purple-600 hover:underline" href="#awards">Awards</a>
+          <a class="mx-2 text-black-500 hover:text-purple-600 hover:underline" href="#about">About</a>
+          <a class="mx-2 text-black-500 hover:text-purple-600 hover:underline" href="#stats">Stats</a>
+          <a class="ml-2 text-black-500 hover:text-purple-600 hover:underline" href="#awards">Awards</a>
         </div>
       </nav>
     </header>
     <main class="flex-1">
       <section class="flex items-center">
-        <img src="./images/hero-image.png" alt="" class="-ml-24 w-2/3">
-        <div class="">
-          <h1 class="font-bold text-6xl tracking-wide text-gray-800">King James</h1>
+        <img src="./images/ronaldo.png" alt="" class="-ml-26 w-1/3 ">
+        <div>
+          <div class="flex items-center ">
+            <h1 class="font-bold text-6xl tracking-wide text-gray-800">Cristiano Ronaldo</h1>
+            <img class="animate-bounce" src="./images/football.png" alt="basketball" height="100px" width="100px">
+          </div>
           <div class="mt-4">
             <a href="#about">
               <button
-                class="bg-purple-500 py-2 px-4 text-gray-50 rounded-md hover:drop-shadow-2xl transition-all ease-linear hover:-translate-y-1 active:bg-purple-900 active:shadow-none">Discover
-                More
+                class="bg-blue-700 mr-2 py-2 px-4 text-gray-50 rounded-md hover:drop-shadow-2xl transition-all ease-linear hover:-translate-y-1 active:bg-purple-900 active:shadow-none">
+                Learn More
               </button>
             </a>
-            <button class="text-purple-500 py-2 px-4">Lorem ipsum</button>
           </div>
         </div>
       </section>
 
-      <section class="bg-purple-500 p-20 rounded-md -mt-8 mb-24" id="about">
-        <h2 class="text-gray-50 text-4xl mb-4">Who is Lebron James?</h2>
-        <img src="./images/lebron.png" class="w-full mb-5" alt="lebron-image">
-        <p class="text-gray-50 text-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit ipsam at esse
-          eius.
-          Libero repellendus
-          dignissimos itaque exercitationem et totam possimus, vero natus, deserunt impedit veritatis aliquam sapiente
-          praesentium laborum!</p>
+      <section class="bg-purple-400 p-10 rounded-md -mt-3 mb-24" id="about">
+        <h2 class="flex justify-center flex-col items-center font-semibold text-black-200 text-4xl mb-4">Who is Cristiano Ronaldo?</h2>
+        <img src="./images/ronaldo1.jpg" class="w-full mb-5" alt="lebron-image">
+        <p class="text-black-200 text-lg font-semibold">Cristiano Ronaldo dos Santos Aveiro GOIH ComM (Portuguese pronunciation; born 5 February 1985) is a Portuguese professional footballer who plays as a forward for Premier League club Manchester United and captains the Portugal national team. Widely regarded as one of the greatest players of all time, Ronaldo has won five Ballon d'Or awards[note 3] and four European Golden Shoes, the most by a European player. He has won 32 trophies in his career, including seven league titles, five UEFA Champions Leagues, and the UEFA European Championship. Ronaldo holds the records for most appearances (183), goals (140), and assists (42) in the Champions League, goals in the European Championship (14), international goals (117), and international appearances by a European (189). He is one of the few players to have made over 1,100 professional career appearances, and has scored over 800 official senior career goals for club and country.</p>
       </section>
 
-      <section class="flex justify-center flex-col items-center mb-24" id="stats">
-        <h3 class="text-4xl font-medium mb-1">Current Stats</h3>
-        <a href="#" class="text-lg mb-10 text-purple-400">view all</a>
+      <section class="flex justify-center flex-col items-center bg-pink-400 p-10 rounded-md -mt-3 mb-24" id="stats">
+        <h3 class="text-4xl font-medium mb-1 text-black-100">Stats</h3>
+        <a href="#" class="text-lg mb-10 text-black-100"><u>See all</u></a>
         <div class="w-full flex justify-between mb-2">
           <div>
-            <p class="text-4xl font-semibold text-gray-800">37,062</p>
-            <p class="text-purple-500">Points</p>
+            <p class="text-4xl font-semibold text-black-100">815</p>
+            <p class="text-black-100">Goals</p>
           </div>
           <div class="border border-yellow-400">
           </div>
           <div>
-            <p class="text-4xl font-semibold text-gray-800">10,210</p>
-            <p class="text-purple-500">Rebounds</p>
+            <p class="text-4xl font-semibold text-black-100">273</p>
+            <p class="text-black-100">Assists</p>
           </div>
           <div class="border border-yellow-400">
           </div>
           <div>
-            <p class="text-4xl font-semibold text-gray-800">10,045</p>
-            <p class="text-purple-500">Assists</p>
+            <p class="text-4xl font-semibold text-black-100">96 meters</p>
+            <p class="text-black-100">Longest Goal</p>
           </div>
         </div>
       </section>
 
-      <section id="awards">
-        <h4 class="text-4xl font-semibold text-gray-800 mb-5">Awards</h4>
-        <div
-          class="flex justify-between items-center bg-yellow-400 p-4 rounded mb-5 transition hover:-translate-y-3 ease-in">
-          <p class="text-purple-500 text-4xl font-extrabold uppercase tracking-wide">Championships</p>
-          <div class="flex items-center">
-            <img class="h-16" src="./images/championship.png" alt="championship">
-            <img class="h-16" src="./images/championship.png" alt="championship">
-            <img class="h-16" src="./images/championship.png" alt="championship">
-            <img class="h-16" src="./images/championship.png" alt="championship">
-          </div>
-        </div>
-
-        <div class="flex justify-between items-center bg-yellow-400 p-4 rounded mb-5">
-          <p class="text-purple-500 text-4xl font-extrabold uppercase tracking-wide">Finals MVP</p>
-          <div class="flex items-center">
-            <img class="h-16" src="./images/finals-mvp.png" alt="Finals MVP">
-            <img class="h-16" src="./images/finals-mvp.png" alt="Finals MVP">
-            <img class="h-16" src="./images/finals-mvp.png" alt="Finals MVP">
-            <img class="h-16" src="./images/finals-mvp.png" alt="Finals MVP">
-          </div>
-        </div>
-
-        <div class="flex justify-between items-center bg-yellow-400 p-4 rounded mb-5">
-          <p class="text-purple-500 text-4xl font-extrabold uppercase tracking-wide">MVPS</p>
-          <div class="flex items-center">
-            <img class="h-16" src="./images/mvp.png" alt="MVP">
-            <img class="h-16" src="./images/mvp.png" alt="MVP">
-            <img class="h-16" src="./images/mvp.png" alt="MVP">
-            <img class="h-16" src="./images/mvp.png" alt="MVP">
-          </div>
-        </div>
-
-        <div class="flex justify-between items-center bg-yellow-400 p-4 rounded mb-5">
-          <p class="text-purple-500 text-4xl font-extrabold uppercase tracking-wide">all-nba teams</p>
-          <p class="text-purple-500 text-4xl font-extrabold uppercase tracking-wide">17</p>
-        </div>
+      <section class="bg-gray-400 p-10 rounded-md -mt-3 mb-24" id="awards">
+        <h2 class="flex justify-center flex-col items-center font-semibold text-black-100 text-4xl mb-4">Awards</h2>
+        <img src="./images/ronaldo3.jpg" class="w-full mb-3 " alt="ronaldo-image">
+        <p class="text-black-50 text-lg font-semibold"> BEST FIFA MEN'S PLAYER - 2 Times</p>
+        <p class="text-black-50 text-lg font-semibold"> WINNER BALLON D'OR - 5 Times</p>
+        <p class="text-black-50 text-lg font-semibold"> FIFA CLUB WORLD CUP WINNER - 4 Times</p>
+        <p class="text-black-50 text-lg font-semibold"> EUROPEAN CHAMPION - 1 Time</p>
+        <p class="text-black-50 text-lg font-semibold"> CHAMPIONS LEAGUE WINNER - 5 Times</p>
       </section>
+
+      <footer>
+
+        <p class="flex justify-center flex-col items-center font-semibold text-black-50 text-lg">Copyright 2022 - Kush Patel</p>
+    
+     </footer>
     </main>
   </body>
 
